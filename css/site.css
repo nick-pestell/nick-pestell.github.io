@@ -1,7 +1,6 @@
 .main{
   height: 100%;
   width: 100%;
-  border: 3px solid green;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +9,6 @@
 .centre {
   width: 50%;
   height: 50%;
-  border: 3px solid blue;
   display: flex;
   justify-content: center;
   align-items: center;
