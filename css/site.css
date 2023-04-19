@@ -13,3 +13,12 @@
   justify-content: center;
   align-items: center;
 }
+
+#cloud-right {
+  transition: 3s ease;
+}
+
+svg:hover #cloud-right {
+  transform: translateY(100%);
+  transform: translateY(-100%);
+}
