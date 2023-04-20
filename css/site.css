@@ -15,10 +15,45 @@
 }
 
 #cloud-right {
-  transition: 3s ease;
+  animation: cloud-small 5s ease infinite;
 }
 
-svg:hover #cloud-right {
-  transform: translateY(100%);
-  transform: translateY(-100%);
+#cloud-left {
+  animation: cloud-small 5s ease infinite;
 }
+
+#cloud-middle {
+  animation: cloud-big 5s ease infinite;
+}
+
+@keyframes cloud-small {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes cloud-big {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+/*#cloud-right {
+  /*transition: 3s ease;
+/*}
+
+/*svg:hover #cloud-right {
+  /*transform: translateY(100%);
+  /*transform: translateY(-100%);
+/*}
