@@ -49,11 +49,28 @@
     transform: translateY(0%);
   }
 }
-/*#cloud-right {
+
+
+#linkedin0:hover ~ #linkedin1 {
+  fill:khaki;
+}
+
+#linkedin1:hover {
+  fill:khaki;
+}
+
+#linkedin1path:hover ~ #linked1 {
+  fill:khaki;
+}
+
+#mouse-ignore{
+  pointer-events: none;
+}
+/*#linkedin {
   /*transition: 3s ease;
 /*}
 
-/*svg:hover #cloud-right {
+/*svg:hover #linkedin {
   /*transform: translateY(100%);
   /*transform: translateY(-100%);
 /*}
