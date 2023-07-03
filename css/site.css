@@ -51,26 +51,26 @@
 }
 
 
-#linkedin0:hover ~ #linkedin1 {
+#github0:hover ~ #github1 {
   fill:khaki;
 }
 
-#linkedin1:hover {
+#github1:hover {
   fill:khaki;
 }
 
-#linkedin1path:hover ~ #linked1 {
+#github1path:hover ~ #github1 {
   fill:khaki;
 }
 
 #mouse-ignore{
   pointer-events: none;
 }
-/*#linkedin {
+/*#github {
   /*transition: 3s ease;
 /*}
 
-/*svg:hover #linkedin {
+/*svg:hover #github {
   /*transform: translateY(100%);
   /*transform: translateY(-100%);
 /*}
