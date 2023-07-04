@@ -50,21 +50,21 @@
   }
 }
 
-.hide-github {
+#github-logo {
   display: none;
 }
     
-#github0:hover + .hide-github {
+#github0:hover + #github-logo {
   display: block;
   color: red;
 }
 
-#github1:hover + .hide-github {
+#github1:hover + #github-logo {
   display: block;
   color: red;
 }
 
-#github1pth:hover + .hide-github {
+#github1pth:hover + #github-logo {
   display: block;
   color: red;
 }
