@@ -54,19 +54,16 @@
   display: none;
 }
     
-#github0:hover + #github-logo {
+#github0:hover ~ #github-logo {
   display: block;
-  color: red;
 }
 
-#github1:hover + #github-logo {
+#github1:hover ~ #github-logo {
   display: block;
-  color: red;
 }
 
-#github1pth:hover + #github-logo {
+#github1path:hover ~ #github-logo {
   display: block;
-  color: red;
 }
 
 #github0:hover ~ #github1 {
