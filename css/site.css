@@ -81,6 +81,15 @@
 #mouse-ignore{
   pointer-events: none;
 }
+
+#linkedin-logo-1{
+  fill:#211915;
+}
+
+#linkedin-logo-2{
+  fill:#211915;
+}
+
 /*#github {
   /*transition: 3s ease;
 /*}
