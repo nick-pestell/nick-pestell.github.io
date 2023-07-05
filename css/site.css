@@ -82,17 +82,14 @@
   pointer-events: none;
 }
 
-#linkedin-logo-1{
+.linkedin-logo-1{
   fill:#211915;
 }
 
-#linkedin-logo-2{
+.linkedin-logo-2{
   fill:#fff;
 }
 
-#linkedin-logo-3{
-  fill:#fff;
-}
 /*#github {
   /*transition: 3s ease;
 /*}
