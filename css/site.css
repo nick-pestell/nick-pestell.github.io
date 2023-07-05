@@ -1,3 +1,4 @@
+/*main divs*/
 .main{
   height: 100%;
   width: 100%;
@@ -14,6 +15,7 @@
   align-items: center;
 }
 
+/*clouds*/
 #cloud-right {
   animation: cloud-small 5s ease infinite;
 }
@@ -50,6 +52,7 @@
   }
 }
 
+/*github*/
 #github-logo {
   display: none;
 }
@@ -74,6 +77,7 @@
   pointer-events: none;
 }
 
+/*linkedin*/
 .linkedin-logo1{
   fill:#211915;
 }
@@ -81,12 +85,3 @@
 .linkedin-logo2{
   fill:#fff;
 }
-
-/*#github {
-  /*transition: 3s ease;
-/*}
-
-/*svg:hover #github {
-  /*transform: translateY(100%);
-  /*transform: translateY(-100%);
-/*}
