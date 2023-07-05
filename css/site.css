@@ -62,19 +62,11 @@
   display: block;
 }
 
-#github1path:hover ~ #github-logo {
-  display: block;
-}
-
 .github0:hover ~ #github1 {
   fill:khaki;
 }
 
 #github1:hover {
-  fill:khaki;
-}
-
-#github1path:hover ~ #github1 {
   fill:khaki;
 }
 
