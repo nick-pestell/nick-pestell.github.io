@@ -80,8 +80,34 @@
 /*linkedin*/
 .linkedin-logo1{
   fill:#211915;
+  display: none;
 }
 
 .linkedin-logo2{
   fill:#fff;
+  display: none;
+}
+
+.linkedin0:hover ~ .linkedin-logo1 {
+  display: block;
+}
+
+.linkedin0:hover ~ .linkedin-logo2 {
+  display: block;
+}
+
+#linkedin1:hover ~ .linkedin-logo1 {
+  display: block;
+}
+
+#linkedin1:hover ~ .linkedin-logo2 {
+  display: block;
+}
+
+.linkedin0:hover ~ #linkedin1 {
+  fill:khaki;
+}
+
+#linkedin1:hover {
+  fill:khaki;
 }
