@@ -1,3 +1,5 @@
+html, body {height: 95vh; overflow: hidden}
+
 /*main divs*/
 .main{
   height: 100%;
