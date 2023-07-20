@@ -54,6 +54,10 @@ html, body {height: 95vh; overflow: hidden}
   }
 }
 
+.mouse-ignore{
+  pointer-events: none;
+}
+
 /*github*/
 #github-logo {
   display: none;
@@ -73,10 +77,6 @@ html, body {height: 95vh; overflow: hidden}
 
 #github1:hover {
   fill:khaki;
-}
-
-.mouse-ignore{
-  pointer-events: none;
 }
 
 /*linkedin*/
@@ -116,10 +116,26 @@ html, body {height: 95vh; overflow: hidden}
 
 /*publications*/
 
-.pub0:hover ~ .pub1 {
+.pub0:hover ~ #pub2 {
   fill:khaki;
 }
 
-.pub1:hover {
+.pub0:hover ~ #pub1b {
   fill:khaki;
+}
+
+#pub2:hover {
+  fill:khaki;
+}
+
+#pub1a:hover ~ #pub1b{
+  fill:khaki;
+}
+
+#pub2:hover ~ #pub1b {
+  fill: khaki;
+}
+
+#pub1a:hover ~ #pub2 {
+  fill: khaki;
 }
