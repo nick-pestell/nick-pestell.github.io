@@ -113,3 +113,13 @@ html, body {height: 95vh; overflow: hidden}
 #linkedin1:hover {
   fill:khaki;
 }
+
+/*publications*/
+
+.pub0:hover ~ .pub1 {
+  fill:khaki;
+}
+
+.pub1:hover {
+  fill:khaki;
+}
