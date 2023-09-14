@@ -1,0 +1,5 @@
+#list1 { }
+#list1 ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#68e1fd;  }
+#list1 ol li { }
+#list1 ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:black; border-left: 4px solid #999; }
+#list1 ol li p em { display:block; }
