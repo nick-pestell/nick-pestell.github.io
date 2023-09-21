@@ -116,6 +116,27 @@ html, body {height: 95vh; overflow: hidden}
 
 /*publications*/
 
+/*github*/
+.pub-logo {
+  display: none;
+}
+    
+.pub0:hover ~ .pub-logo {
+  display: block;
+}
+
+#pub1a:hover ~ .pub-logo {
+  display: block;
+}
+
+#pub1b:hover ~ .pub-logo {
+  display: block;
+}
+
+#pub2:hover ~ .pub-logo {
+  display: block;
+}
+
 .pub0:hover ~ #pub2 {
   fill:khaki;
 }
