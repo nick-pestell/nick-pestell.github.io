@@ -20,7 +20,7 @@ html, body {height: 95vh; overflow: hidden}
 /*plane*/
 
 #plane {
-  animation: plane-fly 7.5s linear infinite;
+  animation: plane-fly 9s linear infinite;
 }
 
 @keyframes plane-fly {
