@@ -17,6 +17,17 @@ html, body {height: 95vh; overflow: hidden}
   align-items: center;
 }
 
+/*text*/
+
+@keyframes text-move {
+  0% {
+    transform: translateX(0%) translateY(0%);
+  }
+  100% {
+    transform: translateX(-3%) translateY(0%);
+  }
+}
+
 /*plane*/
 
 #plane {
@@ -94,6 +105,20 @@ html, body {height: 95vh; overflow: hidden}
   fill:khaki;
 }
 
+#github1:hover ~ #github-text {
+  fill: black;
+  font-weight: bold;
+  animation: text-move 2s ease;
+  animation-fill-mode: forwards;
+}
+
+.github0:hover ~ #github-text {
+  fill: black;
+  font-weight: bold;
+  animation: text-move 2s ease;
+  animation-fill-mode: forwards;
+}
+
 /*linkedin*/
 .linkedin-logo1{
   fill:#211915;
@@ -129,9 +154,21 @@ html, body {height: 95vh; overflow: hidden}
   fill:khaki;
 }
 
-/*publications*/
+#linkedin1:hover ~ #linkedin-text {
+  fill: black;
+  font-weight: bold;
+  animation: text-move 2s ease;
+  animation-fill-mode: forwards;
+}
 
-/*github*/
+.linkedin0:hover ~ #linkedin-text {
+  fill: black;
+  font-weight: bold;
+  animation: text-move 2s ease;
+  animation-fill-mode: forwards;
+}
+
+/*publications*/
 .pub-logo {
   display: none;
 }
@@ -174,4 +211,32 @@ html, body {height: 95vh; overflow: hidden}
 
 #pub1a:hover ~ #pub2 {
   fill: khaki;
+}
+
+#pub1a:hover ~ #pub-text {
+  fill: black;
+  font-weight: bold;
+  animation: text-move 2s ease;
+  animation-fill-mode: forwards;
+}
+
+#pub1b:hover ~ #pub-text {
+  fill: black;
+  font-weight: bold;
+  animation: text-move 2s ease;
+  animation-fill-mode: forwards;
+}
+
+#pub2:hover ~ #pub-text {
+  fill: black;
+  font-weight: bold;
+  animation: text-move 2s ease;
+  animation-fill-mode: forwards;
+}
+
+.pub0:hover ~ #pub-text {
+  fill: black;
+  font-weight: bold;
+  animation: text-move 2s ease;
+  animation-fill-mode: forwards;
 }
