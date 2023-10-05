@@ -28,6 +28,15 @@ html, body {height: 95vh; overflow: hidden}
   }
 }
 
+@keyframes text-move-back {
+  0% {
+    transform: translateX(-3%) translateY(0%);
+  }
+  100% {
+    transform: translateX(0%) translateY(0%);
+  }
+}
+
 /*plane*/
 
 #plane {
@@ -105,6 +114,13 @@ html, body {height: 95vh; overflow: hidden}
   fill:khaki;
 }
 
+#github-text {
+  fill: #b1b1b1;
+  font-weight: normal;
+  animation: text-move-back 1s ease;
+  animation-fill-mode: forwards;
+}
+
 #github1:hover ~ #github-text {
   fill: black;
   font-weight: bold;
@@ -152,6 +168,13 @@ html, body {height: 95vh; overflow: hidden}
 
 #linkedin1:hover {
   fill:khaki;
+}
+
+#linkedin-text {
+  fill: #b1b1b1;
+  font-weight: normal;
+  animation: text-move-back 1s ease;
+  animation-fill-mode: forwards;
 }
 
 #linkedin1:hover ~ #linkedin-text {
@@ -211,6 +234,13 @@ html, body {height: 95vh; overflow: hidden}
 
 #pub1a:hover ~ #pub2 {
   fill: khaki;
+}
+
+#pub-text {
+  fill: #b1b1b1;
+  font-weight: normal;
+  animation: text-move-back 1s ease;
+  animation-fill-mode: forwards;
 }
 
 #pub1a:hover ~ #pub-text {
