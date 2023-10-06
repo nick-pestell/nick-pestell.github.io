@@ -121,6 +121,12 @@ html, body {height: 95vh; overflow: hidden}
   animation-fill-mode: forwards;
 }
 
+#github-text:hover {
+  fill: black;
+  font-weight: bold;
+  animation-fill-mode: forwards;
+}
+
 #github1:hover ~ #github-text {
   fill: black;
   font-weight: bold;
@@ -174,6 +180,12 @@ html, body {height: 95vh; overflow: hidden}
   fill: #b1b1b1;
   font-weight: normal;
   animation: text-move-back 1s ease;
+  animation-fill-mode: forwards;
+}
+
+#linkedin-text:hover {
+  fill: black;
+  font-weight: bold;
   animation-fill-mode: forwards;
 }
 
@@ -240,6 +252,12 @@ html, body {height: 95vh; overflow: hidden}
   fill: #b1b1b1;
   font-weight: normal;
   animation: text-move-back 1s ease;
+  animation-fill-mode: forwards;
+}
+
+#pub-text:hover {
+  fill: black;
+  font-weight: bold;
   animation-fill-mode: forwards;
 }
 
